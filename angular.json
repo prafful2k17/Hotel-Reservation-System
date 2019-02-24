@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Hotel-Reservation-System": {
+    "Room-Reservation-System": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Hotel-Reservation-System",
+            "outputPath": "dist/Room-Reservation-System",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -58,18 +58,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "Hotel-Reservation-System:build"
+            "browserTarget": "Room-Reservation-System:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "Hotel-Reservation-System:build:production"
+              "browserTarget": "Room-Reservation-System:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Hotel-Reservation-System:build"
+            "browserTarget": "Room-Reservation-System:build"
           }
         },
         "test": {
@@ -104,7 +104,7 @@
         }
       }
     },
-    "Hotel-Reservation-System-e2e": {
+    "Room-Reservation-System-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -113,11 +113,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "Hotel-Reservation-System:serve"
+            "devServerTarget": "Room-Reservation-System:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "Hotel-Reservation-System:serve:production"
+              "devServerTarget": "Room-Reservation-System:serve:production"
             }
           }
         },
@@ -133,5 +133,5 @@
       }
     }
   },
-  "defaultProject": "Hotel-Reservation-System"
+  "defaultProject": "Room-Reservation-System"
 }

@@ -4,9 +4,17 @@
 
 import { config } from '../../firebase.config';
 
+var x;
+
+if (config) {
+  x = config;
+} else {
+  x = {};
+}
+
 export const environment = {
   production: false,
-  firebase: config
+  firebase: x
 };
 
 /*

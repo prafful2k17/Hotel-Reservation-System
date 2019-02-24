@@ -1,8 +1,8 @@
-# HotelReservationSystem
+# RoomReservationSystem
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4. The project uses Angular Material Design.
 
-Pre-requisites -
+# Pre-requisites -
     Firebase Account - 
         1. Open https://console.firebase.google.com to open your Firebase Account.
         2. Click on Add Project.
